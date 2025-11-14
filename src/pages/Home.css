@@ -1,0 +1,106 @@
+/* Home Page */
+.home-page {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #0f111a;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  height: 300px;
+  background: linear-gradient(135deg, #1f1f2e, #14141f);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  z-index: 10;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Section */
+.coins-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* Coins Grid: 3 per row */
+.coins-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Coin Card */
+.coin-card {
+  background: linear-gradient(145deg, #1e1e2f, #14141f);
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.coin-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 35px rgba(255,255,255,0.1);
+}
+
+/* Coin icon */
+.coin-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+/* Coin name & stats */
+.coin-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.coin-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .coins-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

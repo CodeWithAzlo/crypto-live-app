@@ -1,0 +1,83 @@
+/* About Page */
+.about-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-hero h1 {
+  font-size: 2.8rem;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Bitcoin Card Container */
+.btc-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Bitcoin Card */
+.btc-card {
+  background: linear-gradient(145deg, #1e1e2f, #14141f);
+  border-radius: 15px;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.btc-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.btc-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 0.8rem;
+}
+
+.btc-stats .stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.btc-stats .stat:last-child {
+  border-bottom: none;
+}
+
+.btc-stats span {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.btc-stats strong {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .btc-card {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+}
