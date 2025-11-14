@@ -36,6 +36,18 @@ Fully dark-themed UI with interactive features, search functionality, and real-t
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home](./assets/s1.png)
+![Top Coins](./assets/s2.png)
+
+### Search Page
+![Search](./assets/serch.png)
+
+### About Page
+![About](./assets/about.png)
+
 ## ⚙️ Prerequisites
 
 Make sure you have **Node.js** and **npm** or **yarn** installed:
@@ -67,19 +79,6 @@ yarn start
 Open the app in your browser:
 
 http://localhost:5173
-
-
-## 📸 Screenshots
-
-### Home Page
-![Home](./assets/s1.png)
-![Top Coins](./assets/s2.png)
-
-### Search Page
-![Search](./assets/serch.png)
-
-### About Page
-![About](./assets/about.png)
 
 
 👨‍💻 Author
