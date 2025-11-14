@@ -75,12 +75,12 @@ http://localhost:5173
 ![Home](./assets/s1.png)
 ![Top Coins](./assets/s2.png)
 
-
 ### Search Page
 ![Search](./assets/serch.png)
 
 ### About Page
 ![About](./assets/about.png)
+
 
 👨‍💻 Author
 
